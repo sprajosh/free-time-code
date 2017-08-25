@@ -12,7 +12,7 @@ time, urllib2, splinter
 
 **urllib2** to open the website and access the page
 
-**splinter** to specify what I wanted to do (automation work)
+**splinter** to specify what I wanted to do (browser automation work)
 
 ###### Ubuntu commands to install packages:
 `pip install time urllib2 splinter`
