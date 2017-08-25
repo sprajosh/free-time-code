@@ -8,8 +8,10 @@ time, urllib2, splinter
 
 
 ###### Why these packages
-**time** to check how much time it took to run the program 
+**time** to check how much time it took to run the program
+
 **urllib2** to open the website and access the page
+
 **splinter** to specify what I wanted to do (automation work)
 
 ###### Ubuntu commands to install packages:
@@ -17,5 +19,7 @@ time, urllib2, splinter
 
 If you wanna learn more about the packages used please go to:
 [time](https://docs.python.org/2/library/time.html)
+
 [urllib2](https://docs.python.org/2/library/urllib2.html)
+
 [splinter](https://splinter.readthedocs.io/en/latest/)
