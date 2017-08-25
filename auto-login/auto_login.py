@@ -1,6 +1,4 @@
-'''
-install time, urllib2 (urllib in python3), splinter
-'''
+#!/usr/bin/python
 import time, urllib2
 from splinter import Browser
 start = time.time()
