@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy.random as npr
+import time
 
+start = time.time()
 c = 1000000
 x = npr.uniform(size=c)
 y = npr.uniform(size=c)
@@ -14,7 +16,7 @@ inside_y = y[inside]
 outside_x = x[outside]
 outside_y = y[outside]
 
-print('Done')
+print('Done in', time.time() - start, 'seconds')
 
 plt.gca().set_aspect('equal', adjustable='box')
 plt.scatter(outside_x, outside_y, marker='.', color='blue')
